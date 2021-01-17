@@ -11,11 +11,11 @@ import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Easyway Consulting Services"/>
 
         <div className={"page-header home"}>
             <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <p>ECS gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -32,7 +32,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <p>Save your time and energy by letting ECS to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via ECS instead.</p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                                <p>ECS let you add staff in specific teams and manage them easily.</p>
                             </div>
                         </div>
 
@@ -100,7 +100,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
+                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in ECS easily.</p>
                             </div>
                         </div>
                     </div>
@@ -111,12 +111,12 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <h2>Contact us today!!</h2>
+                    <p>Contact us and start increasing the productivity of your business.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <a href="/contact" target={"_blank"}>Contact Us</a>
                 </div>
             </div>
         </div>

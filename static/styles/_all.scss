@@ -34,6 +34,8 @@ body {
       }
     }
 
+
+
     .top-menu {
       display: flex;
       justify-content: space-between;
@@ -321,6 +323,12 @@ body {
       @media screen and (max-width: $break-small) {
         padding: 15px 0 0;
       }
+    
+    .logoEcsFooter{
+      img{
+        width:151px !important;
+      }
+    }
 
       .about {
         margin-top: 26px;
